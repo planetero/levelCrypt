@@ -1,16 +1,20 @@
 {
   "name": "levelCrypt",
-  "version": "0.1",
+  "version": "0.0.1",
   "description": "An encrypted instance of LevelDB",
   "main": "index.js",
+  "dependencies": {
+    "level": "^1.4.0"
+    },
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/planetero/levelCrypt.git"
   },
-  "keywords": [levelDB, encryption],
+  "keywords": [ "levelDB", "encryption" ],
   "author": "",
   "license": "ISC",
   "bugs": {
